@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>História do Dirsu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f2f2f2;
+            padding: 50px;
+        }
+        button {
+            padding: 15px 30px;
+            font-size: 18px;
+            cursor: pointer;
+            background-color: #ff4d4d;
+            color: white;
+            border: none;
+            border-radius: 8px;
+        }
+        #historia {
+            margin-top: 30px;
+            text-align: left;
+            display: none; /* começa escondido */
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>Big Dengue: A História do Dirsu</h1>
+    <button onclick="mostrarHistoria()">Clique para ver a história</button>
+
+    <div id="historia">
+        <p>Quando não existia absolutamente nada…<br>
+        Nem céu, nem terra, nem mosquito…</p>
+
+        <p>Houve uma explosão.<br>
+        Muitos cientistas chamam de <b>Big Bang</b>.<br>
+        Mas eles estão errados.</p>
+
+        <p>O nome verdadeiro é… <b>BIG DENGUE</b>.<br>
+        Foi nessa explosão cósmica que Dirsu nasceu.<br>
+        Ele já surgiu no universo com 40° de febre, dor no corpo e reclamando da vida.</p>
+
+        <p>Enquanto estrelas se formavam, Dirsu estava lá:<br>
+        — “Mano… tô passando mal desde o começo do planeta…”</p>
+
+        <p>A dengue dele não era comum.<br>
+        Era uma dengue primordial.<br>
+        Uma dengue ancestral.<br>
+        Uma dengue nível lendário.</p>
+
+        <p>E o mais impressionante?<br>
+        Ela está tentando derrotar ele desde a criação do universo…<br>
+        Mas Dirsu continua vivo.</p>
+
+        <p>Os cientistas não entendem.<br>
+        Os médicos não explicam.<br>
+        Os mosquitos respeitam.<br>
+        Porque Dirsu não pegou dengue.<br>
+        A dengue que pegou Dirsu… nunca conseguiu vencer.</p>
+    </div>
+
+    <script>
+        function mostrarHistoria() {
+            var div = document.getElementById("historia");
+            if(div.style.display === "none") {
+                div.style.display = "block";
+            } else {
+                div.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>
